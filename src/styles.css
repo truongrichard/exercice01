@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-/* angular-cli file: src/styles.css */
-@import "../node_modules/angular-calendar/css/angular-calendar.css";
-@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url('https://unpkg.com/bootstrap-css-only@4.1.1/css/bootstrap.min.css');
+@import url('https://unpkg.com/angular-calendar@0.26.4/css/angular-calendar.css');
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
