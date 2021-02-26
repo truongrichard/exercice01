@@ -1,11 +1,11 @@
 Exercice #1
 
-Ajout boutton avec méthode addEvent() dans HTML qui va créer un event avec le jour actuel pour être ajouté au calenderEvent[] dans TypeScript;
+Ajouter un boutton avec une méthode addEvent() dans HTML qui va créer un event du jour actuel pour être ajouté au calenderEvent[] dans TypeScript;
 
 Exercice #2
 
-Ajout un input à l'exercice #1 qui permet de sélectionner une date dynamiquement dans le addEvent(). HINT : ngModel, ngModelChange
+Ajouter un input à l'exercice #1 qui permet de sélectionner une date dynamiquement et l'assigner à la variable "today" dans TypeScript avec addEvent(). 
 
-Exercice #3
+Par défaut, le temps n'est pas en UTC, on aura besoins d'ajouter un offset.
 
-Dans la liste des events avec un champ input qui permet de changer le titre, ajouter un boutton deleteEvent(event). HINT : filter
+HINT : ngModel, ngModelChange et spread operator

@@ -1,6 +1,6 @@
 import { Component} from '@angular/core';
 import { CalendarView, CalendarEvent, CalendarEventTimesChangedEvent } from 'angular-calendar';
-import { startOfDay, endOfDay, subDays, addDays, } from 'date-fns';
+import { startOfDay, endOfDay } from 'date-fns';
 
 @Component({
   selector: 'app-root',
@@ -53,15 +53,11 @@ export class AppComponent {
 
   addEvent(): void {
     const offSetUTC = new Date().getTimezoneOffset() * 60000;
-    // missing code ex02
+    // missing code exercice02
 
     this.events = [
-      // missing code ex01
+      // missing code exercie01
     ];
-  }
-
-  deleteEvent(eventToDelete: CalendarEvent) {
-    // missing code ex03
   }
   
 }
